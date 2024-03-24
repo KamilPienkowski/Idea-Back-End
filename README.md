@@ -4,3 +4,4 @@ Needed python libs:
 
 - `openai`
 - `dotenv`
+- `openpyxl`
