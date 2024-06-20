@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import uzdrowisko.management.commands
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
@@ -6,7 +7,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Map.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Back_End.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
